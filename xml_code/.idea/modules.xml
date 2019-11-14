@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DataSourceCode/C3P0Code/C3P0Code.iml" filepath="$PROJECT_DIR$/../DataSourceCode/C3P0Code/C3P0Code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DataSourceCode/C3P0Code/C3P0Code1.iml" filepath="$PROJECT_DIR$/../DataSourceCode/C3P0Code/C3P0Code1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_Cookie&amp;Session/Demo_Cookie&amp;Session.iml" filepath="$PROJECT_DIR$/Demo_Cookie&amp;Session/Demo_Cookie&amp;Session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_JSP_el_jstl/Demo_JSP_el_jstl.iml" filepath="$PROJECT_DIR$/Demo_JSP_el_jstl/Demo_JSP_el_jstl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_Xml/Demo_Xml.iml" filepath="$PROJECT_DIR$/Demo_Xml/Demo_Xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_response/Demo_response.iml" filepath="$PROJECT_DIR$/Demo_response/Demo_response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo_Tomcat/Dome_Tomcat.iml" filepath="$PROJECT_DIR$/Demo_Tomcat/Dome_Tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LoginAnli/LoginAnli.iml" filepath="$PROJECT_DIR$/LoginAnli/LoginAnli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MyJavaCode/SQlCode/SQlCode.iml" filepath="$PROJECT_DIR$/../MyJavaCode/SQlCode/SQlCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_servlet/demo_servlet.iml" filepath="$PROJECT_DIR$/demo_servlet/demo_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServletAndHttp/servletandhttp.iml" filepath="$PROJECT_DIR$/ServletAndHttp/servletandhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sqlCode/sqlCode.iml" filepath="$PROJECT_DIR$/../sqlCode/sqlCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userlistAnli/userlistAnli.iml" filepath="$PROJECT_DIR$/userlistAnli/userlistAnli.iml" />
+    </modules>
+  </component>
+</project>
