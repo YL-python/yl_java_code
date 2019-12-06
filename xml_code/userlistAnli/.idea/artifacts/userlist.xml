@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="userlist">
+    <output-path>D:</output-path>
+    <root id="archive" name="userlist.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>

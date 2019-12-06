@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="yctest">
+    <output-path>D:</output-path>
+    <root id="archive" name="yctest.war">
+      <element id="javaee-facet-resources" facet="YCTest/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="YCTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="YCTest" />
+          <element id="library" level="project" name="lib (3)" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>

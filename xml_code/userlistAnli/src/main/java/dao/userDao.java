@@ -86,7 +86,7 @@ public class userDao {
                 arrayList.add("%"+value+"%");  // 装？ 号的值
             }
         }
-        System.out.println(sb.toString());
+//        System.out.println(sb.toString());
         //  可变参数的本质上是一个数组
         return jdbcTemplate.queryForObject(sb.toString(),Integer.class,arrayList.toArray());
     }
@@ -115,7 +115,7 @@ public class userDao {
         sb.append(" limit ?,?");
         arrayList.add(start);
         arrayList.add(rows);
-        System.out.println(sb.toString());
+//        System.out.println(sb.toString());
         List<User> users = jdbcTemplate.query(sb.toString(), new BeanPropertyRowMapper<User>(User.class), arrayList.toArray());
         return users;
     }

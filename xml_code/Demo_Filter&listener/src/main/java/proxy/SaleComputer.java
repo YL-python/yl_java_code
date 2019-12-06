@@ -1,4 +1,4 @@
-package cn.itcast.proxy;
+package main.java.proxy;
 
 public interface SaleComputer {
 

@@ -1,4 +1,4 @@
-package main.java.Swing.LED2;
+package main.java;
 
 import java.util.Arrays;
 

@@ -1,7 +1,6 @@
 package main.java.web.filter;
 
 import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
 // @WebFilter("/*")  // 访问所有的资源前 会访问 这个过滤器

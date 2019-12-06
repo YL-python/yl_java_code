@@ -1,17 +1,16 @@
-package main.java.Swing.LED2;
-
-import main.java.Swing.LED.LEDLoadingBtn;
-import main.java.Swing.LED.main;
+package main.java;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 
 public class Test2 {
     static int page = 1;
     static LEDSettingTableModel ledtm = new LEDSettingTableModel();
+    static ArrayList<LEDSetting> ledSettings = new ArrayList<>();
 
     static JTable t = new JTable(ledtm);
 
@@ -59,20 +58,22 @@ public class Test2 {
 
     public static class AddJDialog extends JDialog {
 
-        main.java.Swing.LED.LEDSetting ledsetting = new main.java.Swing.LED.LEDSetting();
+        LEDSetting ledsetting = new LEDSetting();
         JButton b = new JButton("提交");
 
         AddJDialog(JFrame f) {
             super(f);
             LEDLoadingBtn ledLoadingBtn = new LEDLoadingBtn();
-            ledLoadingBtn.showBtn(this,ledsetting);
-            this.setSize(300, 300);
+            LEDSetting ledSetting2 = ledLoadingBtn.showBtn(this, ledsetting);
+            this.setSize(1200, 850);
+            this.setLocationRelativeTo(null);
+            this.setResizable(false);
             this.setModal(true);
             int gap = 50;
             this.setLayout(null);
             this.setLocationRelativeTo(f);
 
-            b.setBounds(110, 210, 80, 30);
+            b.setBounds(500, 760, 200, 30);
 
             this.add(b);
 
@@ -82,11 +83,18 @@ public class Test2 {
                     LEDSetting ledSetting = new LEDSetting();
                     ledSetting.setColorList(ledsetting.getColorList());
                     ledSetting.setTime(ledsetting.getTime());
-                    page = 1;
-                    JOptionPane.showMessageDialog(f, "提交成功 ");
+                    String time = ledSetting2.getTime();
+                    if (time.equals("0")){
+                        JOptionPane.showMessageDialog(f, "没有设置延迟时间！");
+                    }else{
+                        JOptionPane.showMessageDialog(f, "提交成功 ");
+                    }
 
+
+                    System.out.println(ledSetting2);
                     AddJDialog.this.setVisible(false);
 //                    updateTable();
+                    t.updateUI();
                 }
             });
         }
