@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="userlist">
+    <output-path>D:/</output-path>
+    <root id="archive" name="userlist.war">
+      <element id="javaee-facet-resources" facet="userlistAnli/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="userlistAnli" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="userlistAnli" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/userlistAnli/web" />
+    </root>
+  </artifact>
+</component>

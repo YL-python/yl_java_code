@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="teacherAnli">
+    <output-path>D:/</output-path>
+    <root id="archive" name="teacherAnli.war">
+      <element id="javaee-facet-resources" facet="teacherAnli/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="teacherAnli" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="teacherAnli" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/../anli/teacherAnli/web" />
+    </root>
+  </artifact>
+</component>
