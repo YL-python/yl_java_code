@@ -3,37 +3,38 @@ package cn.itcast.travel.dao.impl;
 import cn.itcast.travel.dao.UserDao;
 import cn.itcast.travel.domain.User;
 import cn.itcast.travel.util.JDBCUtils;
-import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 public class UserDaoImpl implements UserDao {
 
-    private JdbcTemplate template = new JdbcTemplate(JDBCUtils.getDataSource());
+    private JdbcTemplate jdbcTemplate = new JdbcTemplate(JDBCUtils.getDataSource());
 
+    // 根据用户名查询用户信息
     @Override
-    public User findByUsername(String username) {
+    public User findUserByName(String username) {
         User user = null;
-        try {
-            //1.定义sql
+        //  防止在查询用户信息的时候出异常了报 500
+        try{
+            // 定义sql语句
             String sql = "select * from tab_user where username = ?";
-            //2.执行sql
-            user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), username);
-        } catch (Exception e) {
-
+            // 执行sql语句
+            user = jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), username);
+//            System.out.println(user);
+        }catch (Exception e){
         }
-
         return user;
     }
 
+    // 保存用户信息
     @Override
-    public void save(User user) {
-        //1.定义sql
+    public void saveUser(User user) {
+        // 定义sql
         String sql = "insert into tab_user(username,password,name,birthday,sex,telephone,email,status,code) values(?,?,?,?,?,?,?,?,?)";
-        //2.执行sql
-
-        template.update(sql,user.getUsername(),
-                    user.getPassword(),
+        // 执行sql
+        jdbcTemplate.update(sql,
+                user.getUsername(),
+                user.getPassword(),
                 user.getName(),
                 user.getBirthday(),
                 user.getSex(),
@@ -41,56 +42,46 @@ public class UserDaoImpl implements UserDao {
                 user.getEmail(),
                 user.getStatus(),
                 user.getCode()
-                );
+        );
+
     }
 
-    /**
-     * 根据激活码查询用户对象
-     * @param code
-     * @return
-     */
+    // 通过激活码查找用户
     @Override
-    public User findByCode(String code) {
+    public User findUserByCode(String code) {
         User user = null;
         try {
+            // 定义sql
             String sql = "select * from tab_user where code = ?";
-
-            user = template.queryForObject(sql,new BeanPropertyRowMapper<User>(User.class),code);
-        } catch (DataAccessException e) {
+            // 执行sql
+            user = jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), code);
+        }catch (Exception e){
             e.printStackTrace();
         }
-
         return user;
     }
 
-    /**
-     * 修改指定用户激活状态
-     * @param user
-     */
+    // 设置用户激活状态
     @Override
     public void updateStatus(User user) {
-        String sql = " update tab_user set status = 'Y' where uid=?";
-        template.update(sql,user.getUid());
+        // 定义sql
+        String sql = "update tab_user set status='Y' where uid=?";
+        // 执行sql
+        jdbcTemplate.update(sql,user.getUid());
     }
 
-    /**
-     * 根据用户名和密码查询的方法
-     * @param username
-     * @param password
-     * @return
-     */
+    // 按用户名和密码查找用户
     @Override
-    public User findByUsernameAndPassword(String username, String password) {
-        User user = null;
+    public User findUserByNAndP(User user) {
+        User u = null;
         try {
-            //1.定义sql
-            String sql = "select * from tab_user where username = ? and password = ?";
-            //2.执行sql
-            user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), username,password);
-        } catch (Exception e) {
-
+            // 定义sql
+            String sql = "select * from tab_user where username=? and password=?";
+            // 执行sql
+            u = jdbcTemplate.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), user.getUsername(),user.getPassword());
+        }catch (Exception e ){
+            e.printStackTrace();
         }
-
-        return user;
+        return u;
     }
 }

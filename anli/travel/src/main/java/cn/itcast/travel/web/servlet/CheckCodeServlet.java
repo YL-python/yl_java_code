@@ -42,6 +42,7 @@ public class CheckCodeServlet extends HttpServlet {
 		String checkCode = getCheckCode();
 		//将验证码放入HttpSession中
 		request.getSession().setAttribute("CHECKCODE_SERVER",checkCode);
+		System.out.println("系统生成的验证码是："+checkCode);
 		
 		//设置画笔颜色为黄色
 		g.setColor(Color.YELLOW);

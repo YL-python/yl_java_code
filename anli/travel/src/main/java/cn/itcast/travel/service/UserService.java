@@ -3,14 +3,12 @@ package cn.itcast.travel.service;
 import cn.itcast.travel.domain.User;
 
 public interface UserService {
-    /**
-     * 注册用户
-     * @param user
-     * @return
-     */
-    boolean regist(User user);
+    // 注册用户的方法
+    boolean userRegist(User user);
 
-    boolean active(String code);
+    // 激活用户的方法
+    boolean activeUser(String code);
 
+    // 登录方法
     User login(User user);
 }

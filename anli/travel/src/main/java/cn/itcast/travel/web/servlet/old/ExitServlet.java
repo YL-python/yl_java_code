@@ -1,4 +1,4 @@
-package cn.itcast.travel.web.servlet;
+package cn.itcast.travel.web.servlet.old;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,10 +10,11 @@ import java.io.IOException;
 @WebServlet("/exitServlet")
 public class ExitServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //1.销毁session
+        // 1.销毁session
         request.getSession().invalidate();
 
-        //2.跳转登录页面
+        // 跳转到登录页面
+        // 使用重定向需要加虚拟路径
         response.sendRedirect(request.getContextPath()+"/login.html");
     }
 
