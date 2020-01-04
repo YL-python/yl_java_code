@@ -1,0 +1,15 @@
+yang\muyun\mybatis\annotations\Select.class
+yang\muyun\mybatis\io\Resources.class
+yang\muyun\mybatis\sqlsession\defaults\DefaultSqlSessionFactory.class
+yang\muyun\mybatis\utils\DataSourceUtil.class
+yang\muyun\mybatis\utils\Executor.class
+yang\muyun\mybatis\cfg\Mapper.class
+yang\muyun\dao\UserDao.class
+yang\muyun\mybatis\cfg\Configuration.class
+yang\muyun\mybatis\sqlsession\SqlSessionFactory.class
+yang\muyun\mybatis\sqlsession\SqlSession.class
+yang\muyun\mybatis\sqlsession\proxy\MapperProxy.class
+yang\muyun\mybatis\utils\XMLConfigBuilder.class
+yang\muyun\mybatis\sqlsession\SqlSessionFactoryBuilder.class
+yang\muyun\mybatis\sqlsession\defaults\DefaultSqlSession.class
+yang\muyun\domain\User.class
