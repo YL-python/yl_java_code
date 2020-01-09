@@ -1,0 +1,148 @@
+-------------------------------------------------------------------------------
+Test set: com.itheima.test.MybatisTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 1.134 s <<< FAILURE! - in com.itheima.test.MybatisTest
+testUpdate(com.itheima.test.MybatisTest)  Time elapsed: 0.751 s  <<< ERROR!
+org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+
+testUpdate(com.itheima.test.MybatisTest)  Time elapsed: 0.753 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+
+testFindTotal(com.itheima.test.MybatisTest)  Time elapsed: 0.053 s  <<< ERROR!
+org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+
+testFindTotal(com.itheima.test.MybatisTest)  Time elapsed: 0.053 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+
+testFindByVo(com.itheima.test.MybatisTest)  Time elapsed: 0.044 s  <<< ERROR!
+org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+
+testFindByVo(com.itheima.test.MybatisTest)  Time elapsed: 0.044 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+
+testDelete(com.itheima.test.MybatisTest)  Time elapsed: 0.038 s  <<< ERROR!
+org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+
+testDelete(com.itheima.test.MybatisTest)  Time elapsed: 0.038 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+
+testFindOne(com.itheima.test.MybatisTest)  Time elapsed: 0.051 s  <<< ERROR!
+org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+
+testFindOne(com.itheima.test.MybatisTest)  Time elapsed: 0.052 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+
+testFindByName(com.itheima.test.MybatisTest)  Time elapsed: 0.033 s  <<< ERROR!
+org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+
+testFindByName(com.itheima.test.MybatisTest)  Time elapsed: 0.033 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+
+testSave(com.itheima.test.MybatisTest)  Time elapsed: 0.038 s  <<< ERROR!
+org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+
+testSave(com.itheima.test.MybatisTest)  Time elapsed: 0.038 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+
+testFindAll(com.itheima.test.MybatisTest)  Time elapsed: 0.032 s  <<< ERROR!
+org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+
+testFindAll(com.itheima.test.MybatisTest)  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+

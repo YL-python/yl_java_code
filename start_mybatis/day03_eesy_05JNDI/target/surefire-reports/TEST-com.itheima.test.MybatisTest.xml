@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.itheima.test.MybatisTest" time="1.134" tests="16" errors="16" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\Intellij_IDEA\start_mybatis\day03_eesy_05JNDI\target\test-classes;D:\Intellij_IDEA\start_mybatis\day03_eesy_05JNDI\target\classes;D:\Java\maven_repository\org\mybatis\mybatis\3.4.5\mybatis-3.4.5.jar;D:\Java\maven_repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\Java\maven_repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\Java\maven_repository\junit\junit\4.10\junit-4.10.jar;D:\Java\maven_repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\Java\maven_repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\Java\maven_repository\javax\servlet\jsp\jsp-api\2.0\jsp-api-2.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3659256854427492403\surefirebooter4319078861473640511.jar C:\Users\Administrator\AppData\Local\Temp\surefire3659256854427492403 2020-01-09T15-10-16_771-jvmRun1 surefire6840062343157386766tmp surefire_03775676365973785959tmp"/>
+    <property name="surefire.test.class.path" value="D:\Intellij_IDEA\start_mybatis\day03_eesy_05JNDI\target\test-classes;D:\Intellij_IDEA\start_mybatis\day03_eesy_05JNDI\target\classes;D:\Java\maven_repository\org\mybatis\mybatis\3.4.5\mybatis-3.4.5.jar;D:\Java\maven_repository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\Java\maven_repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\Java\maven_repository\junit\junit\4.10\junit-4.10.jar;D:\Java\maven_repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\Java\maven_repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\Java\maven_repository\javax\servlet\jsp\jsp-api\2.0\jsp-api-2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="D:\Intellij_IDEA\start_mybatis\day03_eesy_05JNDI"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="idea.version2019.2.4" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire3659256854427492403\surefirebooter4319078861473640511.jar"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk1.8.0_231\jre\lib\resources.jar;D:\Java\jdk1.8.0_231\jre\lib\rt.jar;D:\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;D:\Java\jdk1.8.0_231\jre\lib\jsse.jar;D:\Java\jdk1.8.0_231\jre\lib\jce.jar;D:\Java\jdk1.8.0_231\jre\lib\charsets.jar;D:\Java\jdk1.8.0_231\jre\lib\jfr.jar;D:\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="既见君子"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Java\maven_repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="D:\Intellij_IDEA\start_mybatis\day03_eesy_05JNDI"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Java\jdk1.8.0_231\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\NetSarang\Xshell 6\;D:\NetSarang\Xftp 6\;D:\Java\jdk-9.0.4\bin;E:\python3.7.2\Scripts\;E:\python3.7.2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\python\Scripts\;C:\WINDOWS\System32\OpenSSH\;E:\ChromeDriver\chromedriver.exe;E:\MongoDB\Server\4.0\bin;D:\Sublime\Sublime Text 3;C:\Program Files\TortoiseGit\bin;D:\Downloads\ffmpeg-20190927-0485865-win64-static\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;D:\Java\apache-maven-3.5.2\bin;D:\Git\cmd;D:\redis\redis-2.8.9;E:\python3.7.2\Scripts\;E:\python3.7.2\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\PyCharm 2018.3.1\bin;;D:\Sublime\Sublime Text 3;D:\Intellij_IDEA\IntelliJ IDEA Community Edition 2019.2.2\bin;;D:\Downloads\ffmpeg-20190927-0485865-win64-static\bin;;D:\Microsoft VS Code\bin;D:\Intellij_IDEA\IntelliJ IDEA 2019.2.4\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testUpdate" classname="com.itheima.test.MybatisTest" time="0.751">
+    <error message="&#10;### Error building SqlSession.&#10;### The error may exist in SQL Mapper Configuration&#10;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+</error>
+    <system-out><![CDATA[2020-01-09 15:10:18,946 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-09 15:10:19,154 208    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-01-09 15:10:19,154 208    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-01-09 15:10:19,155 209    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-01-09 15:10:19,157 211    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-01-09 15:10:19,159 213    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-01-09 15:10:19,160 214    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,160 214    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,270 324    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-01-09 15:10:19,271 325    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-01-09 15:10:19,272 326    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,274 328    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,276 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,279 333    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;&amp#24;
+2020-01-09 15:10:19,280 334    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,280 334    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,283 337    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;N
+2020-01-09 15:10:19,284 338    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2020-01-09 15:10:19,286 340    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdate" classname="com.itheima.test.MybatisTest" time="0.753">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+</error>
+  </testcase>
+  <testcase name="testFindTotal" classname="com.itheima.test.MybatisTest" time="0.053">
+    <error message="&#10;### Error building SqlSession.&#10;### The error may exist in SQL Mapper Configuration&#10;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+</error>
+    <system-out><![CDATA[2020-01-09 15:10:19,354 408    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,355 409    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,356 410    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-01-09 15:10:19,357 411    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-01-09 15:10:19,358 412    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,359 413    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,360 414    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,362 416    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;&amp#24;
+2020-01-09 15:10:19,367 421    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,368 422    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,372 426    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;N
+2020-01-09 15:10:19,373 427    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2020-01-09 15:10:19,373 427    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+]]></system-out>
+  </testcase>
+  <testcase name="testFindTotal" classname="com.itheima.test.MybatisTest" time="0.053">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+</error>
+  </testcase>
+  <testcase name="testFindByVo" classname="com.itheima.test.MybatisTest" time="0.044">
+    <error message="&#10;### Error building SqlSession.&#10;### The error may exist in SQL Mapper Configuration&#10;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+</error>
+    <system-out><![CDATA[2020-01-09 15:10:19,411 465    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,411 465    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,413 467    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-01-09 15:10:19,415 469    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-01-09 15:10:19,415 469    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,416 470    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,417 471    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,419 473    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;&amp#24;
+2020-01-09 15:10:19,419 473    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,420 474    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,423 477    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;N
+2020-01-09 15:10:19,423 477    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2020-01-09 15:10:19,425 479    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByVo" classname="com.itheima.test.MybatisTest" time="0.044">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+</error>
+  </testcase>
+  <testcase name="testDelete" classname="com.itheima.test.MybatisTest" time="0.038">
+    <error message="&#10;### Error building SqlSession.&#10;### The error may exist in SQL Mapper Configuration&#10;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+</error>
+    <system-out><![CDATA[2020-01-09 15:10:19,454 508    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,454 508    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,455 509    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-01-09 15:10:19,456 510    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-01-09 15:10:19,457 511    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,457 511    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,458 512    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,460 514    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;&amp#24;
+2020-01-09 15:10:19,461 515    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,461 515    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,463 517    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;N
+2020-01-09 15:10:19,463 517    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2020-01-09 15:10:19,464 518    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+]]></system-out>
+  </testcase>
+  <testcase name="testDelete" classname="com.itheima.test.MybatisTest" time="0.038">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+</error>
+  </testcase>
+  <testcase name="testFindOne" classname="com.itheima.test.MybatisTest" time="0.051">
+    <error message="&#10;### Error building SqlSession.&#10;### The error may exist in SQL Mapper Configuration&#10;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+</error>
+    <system-out><![CDATA[2020-01-09 15:10:19,506 560    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,507 561    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,508 562    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-01-09 15:10:19,509 563    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-01-09 15:10:19,509 563    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,510 564    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,510 564    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,512 566    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;&amp#24;
+2020-01-09 15:10:19,512 566    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,513 567    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,514 568    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;N
+2020-01-09 15:10:19,515 569    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2020-01-09 15:10:19,515 569    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+]]></system-out>
+  </testcase>
+  <testcase name="testFindOne" classname="com.itheima.test.MybatisTest" time="0.052">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+</error>
+  </testcase>
+  <testcase name="testFindByName" classname="com.itheima.test.MybatisTest" time="0.033">
+    <error message="&#10;### Error building SqlSession.&#10;### The error may exist in SQL Mapper Configuration&#10;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+</error>
+    <system-out><![CDATA[2020-01-09 15:10:19,541 595    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,542 596    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,543 597    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-01-09 15:10:19,544 598    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-01-09 15:10:19,544 598    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,545 599    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,545 599    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,547 601    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;&amp#24;
+2020-01-09 15:10:19,547 601    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,548 602    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,549 603    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;N
+2020-01-09 15:10:19,550 604    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2020-01-09 15:10:19,550 604    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+]]></system-out>
+  </testcase>
+  <testcase name="testFindByName" classname="com.itheima.test.MybatisTest" time="0.033">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+</error>
+  </testcase>
+  <testcase name="testSave" classname="com.itheima.test.MybatisTest" time="0.038">
+    <error message="&#10;### Error building SqlSession.&#10;### The error may exist in SQL Mapper Configuration&#10;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+</error>
+    <system-out><![CDATA[2020-01-09 15:10:19,575 629    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,575 629    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,577 631    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-01-09 15:10:19,578 632    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-01-09 15:10:19,579 633    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,580 634    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,581 635    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,582 636    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;&amp#24;
+2020-01-09 15:10:19,582 636    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,583 637    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,584 638    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;N
+2020-01-09 15:10:19,585 639    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2020-01-09 15:10:19,587 641    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+]]></system-out>
+  </testcase>
+  <testcase name="testSave" classname="com.itheima.test.MybatisTest" time="0.038">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+</error>
+  </testcase>
+  <testcase name="testFindAll" classname="com.itheima.test.MybatisTest" time="0.032">
+    <error message="&#10;### Error building SqlSession.&#10;### The error may exist in SQL Mapper Configuration&#10;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial" type="org.apache.ibatis.exceptions.PersistenceException">org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error building SqlSession.
+### The error may exist in SQL Mapper Configuration
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: org.apache.ibatis.datasource.DataSourceException: There was an error configuring JndiDataSourceTransactionPool. Cause: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+Caused by: javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at com.itheima.test.MybatisTest.init(MybatisTest.java:35)
+</error>
+    <system-out><![CDATA[2020-01-09 15:10:19,614 668    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,614 668    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,616 670    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-01-09 15:10:19,616 670    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-01-09 15:10:19,617 671    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain
+2020-01-09 15:10:19,617 671    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,617 671    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/QueryVo.class
+2020-01-09 15:10:19,619 673    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;&amp#24;
+2020-01-09 15:10:19,619 673    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,619 673    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/Intellij_IDEA/start_mybatis/day03_eesy_05JNDI/target/classes/com/itheima/domain/User.class
+2020-01-09 15:10:19,621 675    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: 漱壕&amp#0;&amp#0;&amp#0;3&amp#0;N
+2020-01-09 15:10:19,622 676    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.QueryVo matches criteria [is assignable to Object]
+2020-01-09 15:10:19,623 677    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itheima.domain.User matches criteria [is assignable to Object]
+]]></system-out>
+  </testcase>
+  <testcase name="testFindAll" classname="com.itheima.test.MybatisTest" time="0.032">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.itheima.test.MybatisTest.destroy(MybatisTest.java:47)
+</error>
+  </testcase>
+</testsuite>
